@@ -1,5 +1,6 @@
 // ignore_for_file: unused_import
 
+import 'package:app_filmes/modules/splash/splash_controller.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:flutter/material.dart';
