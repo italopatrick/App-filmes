@@ -4,6 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import './login_service.dart';
 
 class LoginServiceImpl implements LoginService {
+  // ignore: prefer_final_fields
   LoginRepository _loginRepository;
 
   LoginServiceImpl ({
@@ -13,5 +14,8 @@ class LoginServiceImpl implements LoginService {
 
   @override
   Future<UserCredential> login() => _loginRepository.login();
+  
+  @override
+  Future<void> logout() => _loginRepository.logout();
 
 }

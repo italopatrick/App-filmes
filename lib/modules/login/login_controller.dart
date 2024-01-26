@@ -1,5 +1,7 @@
-import 'package:app_filmes/application/modules/ui/loader/loader_mixin.dart';
-import 'package:app_filmes/application/modules/ui/messages/messages_mixin.dart';
+// ignore_for_file: avoid_print
+
+import 'package:app_filmes/application/ui/loader/loader_mixin.dart';
+import 'package:app_filmes/application/ui/messages/messages_mixin.dart';
 import 'package:app_filmes/services/login/login_service.dart';
 import 'package:get/get.dart';
 
